@@ -7,6 +7,7 @@ import pratham from "./assets/Bootstrap-demo.jpg";
 import crudApp from "./assets/Crud-Application.jpg";
 import careerwallet from "./assets/careerwallet.png";
 import tablemanagement from "./assets/tablemanagement.png";
+import justairport from "./assets/JUST Airport.png";
 
 
 
@@ -27,6 +28,30 @@ export const filters = [
 ];
 
 export const projects = [
+   {
+    name: "CareerWallet",
+    dis: " Created a user-friendly job aggregator, simplifying career searches.  enhance efficiency and accessibility with the help of optimize code , facilitating smoother transitions into desired professions.",
+    ts: "Tech Stack : CSS, HTML, Boostrap,Php",
+    link: "https://thecareerwallet.com/",
+    image: careerwallet,
+    tags: ["Indvidual"],
+  },
+  {
+    name: "PrathamOnline",
+    dis: "Lannding page of the website with image optimization and responsive for all the device ,Employed React to foster interactive learning experiences, aiding in the journey towards individual success.",
+    ts: "Tech Stack : CSS, HTML, Boostrap,React ",
+    link: "https://prathamonline.vercel.app/",
+    image: pratham,
+    tags: ["Indivisual"],
+  },
+   {
+    name: "JustAirports",
+    dis: "Just Airports Transfers provides premium chauffeur services across UK airports and ports, including London Heathrow and Southampton, with over 20 years of experience ensuring reliable and elegant transportation.",
+    ts: "Tech Stack :Html3,Css3,Javascript, Php,Google Api ",
+    link: "https://www.justairports.com/",
+    image: p1,
+    tags: ["Indvidual"],
+  },
   {
     name: "Movie and Tv Shows Information",
     dis: "Developed a web app providing comprehensive information on movies and TV shows. Implemented intuitive UI/UX and real-time data updates for an enhanced user experience.",
@@ -76,22 +101,7 @@ export const projects = [
     tags: ["Indvidual"],
   },
  
-  {
-    name: "CareerWallet",
-    dis: " Created a user-friendly job aggregator, simplifying career searches.  enhance efficiency and accessibility with the help of optimize code , facilitating smoother transitions into desired professions.",
-    ts: "Tech Stack : CSS, HTML, Boostrap,Php",
-    link: "https://thecareerwallet.com/",
-    image: careerwallet,
-    tags: ["Indvidual"],
-  },
-  {
-    name: "PrathamOnline",
-    dis: "Lannding page of the website with image optimization and responsive for all the device ,Employed React to foster interactive learning experiences, aiding in the journey towards individual success.",
-    ts: "Tech Stack : CSS, HTML, Boostrap,React ",
-    link: "https://prathamonline.vercel.app/",
-    image: pratham,
-    tags: ["Indivisual"],
-  },
+  
  
 ];
 // Created a user-friendly job aggregator, simplifying career searches. Utilized React and Node.js to enhance efficiency and accessibility, facilitating smoother transitions into desired professions.
