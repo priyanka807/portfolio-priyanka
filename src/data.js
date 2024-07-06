@@ -46,10 +46,10 @@ export const projects = [
   },
    {
     name: "JustAirports",
-    dis: "Just Airports Transfers provides premium chauffeur services across UK airports and ports, including London Heathrow and Southampton, with over 20 years of experience ensuring reliable and elegant transportation.",
-    ts: "Tech Stack :Html3,Css3,Javascript, Php,Google Api ",
+    dis: "Just Airports Transfers provides premium chauffeur services across UK airports and ports, including London Heathrow , with over 20 years of experience ensuring reliable and elegant transportation.",
+    ts: "Tech Stack :Html3,Css3,Javascript, Php, Api ",
     link: "https://www.justairports.com/",
-    image: p1,
+    image: justairport,
     tags: ["Indvidual"],
   },
   {
