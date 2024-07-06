@@ -7,7 +7,7 @@ import pratham from "./assets/Bootstrap-demo.jpg";
 import crudApp from "./assets/Crud-Application.jpg";
 import careerwallet from "./assets/careerwallet.png";
 import tablemanagement from "./assets/tablemanagement.png";
-import justairport from "./assets/Just Airports.png";
+import justairport from "./assets/JustAirports.png";
 
 
 
