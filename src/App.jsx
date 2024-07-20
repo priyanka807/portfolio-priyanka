@@ -11,7 +11,7 @@ import Try from "./components/try";
 function App() {
     return (
       <div className="App">
-              <a href="tel:+919773583040">Call me</a>
+            
         <HeroBanner />
         {/* <Try/> */}
         {/* <AboutMe /> */}
