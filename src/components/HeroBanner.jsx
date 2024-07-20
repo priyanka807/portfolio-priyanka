@@ -145,6 +145,8 @@ const HeroBanner = () => {
                   <a href="https://github.com/priyanka807" target="_blank">
                     GitHub
                   </a>
+
+                  
                 </button>
               </div>
               <div className="leading-[22px] ">
@@ -169,6 +171,26 @@ const HeroBanner = () => {
                   Hire Me
                 </button>
               </div>
+  <div className="leading-[22px] ">
+                <button
+                  type="button"
+                  class="text-white bg-gradient-to-r from-purple-800 to-orange-600 hover:bg-gradient-to-l focus:ring-4  font-medium rounded-lg text-sm px-2 py-2.5 text-center mr-2 mb-2"
+                >
+                    <a href="tel:+919773583040">Call me</a>
+                  
+                </button>
+              </div>
+           <div className="leading-[22px] ">
+                <button
+                  type="button"
+                  class="text-white bg-gradient-to-r from-purple-800 to-orange-600 hover:bg-gradient-to-l focus:ring-4  font-medium rounded-lg text-sm px-2 py-2.5 text-center mr-2 mb-2"
+                >
+               <a href="mailto:priyankacoder11@gmail.com"
+                  >priyankacoder11@gmail.com</a
+                >
+                  
+                </button>
+              </div>   
             </div>
           </div>
 
