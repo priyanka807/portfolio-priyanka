@@ -8,6 +8,8 @@ import crudApp from "./assets/Crud-Application.jpg";
 import careerwallet from "./assets/careerwallet.png";
 import tablemanagement from "./assets/tablemanagement.png";
 import justairport from "./assets/JustAirports.png";
+import mmwmachine from "./assets/mohindra-mechanical-works.png";
+import mohindraengineering  from "./assets/Mohindra-Engineering-Company.png";
 
 
 
@@ -31,10 +33,26 @@ export const projects = [
    {
     name: "CareerWallet",
     dis: " Created a user-friendly job aggregator, simplifying career searches.  enhance efficiency and accessibility with the help of optimize code , facilitating smoother transitions into desired professions.",
-    ts: "Tech Stack : CSS, HTML, Boostrap,Php",
+    ts: "Tech Stack : CSS, HTML, Boostrap,Javascript",
     link: "https://thecareerwallet.com/",
     image: careerwallet,
     tags: ["Indvidual"],
+  },
+  {
+    name: "Mohindra Engineering Company",
+    dis: "Built with a robust tech stack including CSS, HTML, Bootstrap, and Php, we ensure a seamless user experience for our visitors.  I thrive in collaborative environments, continually seeking opportunities.",
+    ts: "Tech Stack : CSS, HTML, Boostrap,Javascript",
+    link: "https://www.mohindramachinery.com/",
+    image: mohindraengineering,
+    tags: ["Team"],
+  },
+  {
+    name: "Mohindra Mechanical Works",
+    dis: "A user-friendly and mobile-responsive platform designed for seamless navigation and fast loading times.  Built with a robust tech stack, including CSS, HTML, Bootstrap, and Javascript.",
+    ts: "Tech Stack : CSS, HTML, Boostrap,Php",
+    link: "https://mmwmachine.com/",
+    image: mmwmachine,
+    tags: ["Indivisual"],
   },
   {
     name: "PrathamOnline",

@@ -11,13 +11,11 @@ const Form = () => {
     const formSubmitHandler = (e) => {
         e.preventDefault();
         setLoading(true);
-
-        // Below credentials are required to link your email id with contact form you can create your credentials in emailjs.com
         send(
-          "service_bl1lk1u", // Service ID
-          "template_skz4vyu", // Template ID
+          "service_bl1lk1u", 
+          "template_skz4vyu",
           userInput,
-          "F2RRGV4j3w4MIeZtS" // Public Key - https://dashboard.emailjs.com/admin/account
+          "F2RRGV4j3w4MIeZtS" 
         )
           .then((response) => {
             console.log("SUCCESS!", response.status, response.text);
