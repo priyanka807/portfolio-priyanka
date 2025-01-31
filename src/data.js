@@ -3,11 +3,11 @@ import youtube from "./assets/YOUTUBE-CLONE.jpg";
 import indimedo from "./assets/indimedo.png";
 
 import Job from "./assets/Create-Next-App.png";
-import pratham from "./assets/Bootstrap-demo.jpg";
+import pratham from "./assets/prathamonline.png";
 import crudApp from "./assets/Crud-Application.jpg";
 import careerwallet from "./assets/careerwallet.png";
 import tablemanagement from "./assets/tablemanagement.png";
-import justairport from "./assets/JustAirports.png";
+import justairport from "./assets/justairports.png";
 import mmwmachine from "./assets/mohindra-mechanical-works.png";
 import mohindraengineering  from "./assets/Mohindra-Engineering-Company.png";
 
