@@ -1,6 +1,6 @@
 import p1 from "./assets/MoviesGit.webp";
 import youtube from "./assets/YOUTUBE-CLONE.jpg";
-import indimedo from "./assets/Vite-React.jpg";
+import indimedo from "./assets/indimedo.png";
 
 import Job from "./assets/Create-Next-App.png";
 import pratham from "./assets/Bootstrap-demo.jpg";
