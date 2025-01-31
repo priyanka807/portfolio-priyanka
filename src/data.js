@@ -58,7 +58,7 @@ export const projects = [
     name: "PrathamOnline",
     dis: "Lannding page of the website with image optimization and responsive for all the device ,Employed React to foster interactive learning experiences, aiding in the journey towards individual success.",
     ts: "Tech Stack : CSS, HTML, Boostrap,React ",
-    link: "https://prathamonline.vercel.app/",
+    link: "https://www.prathamonline.com/",
     image: pratham,
     tags: ["Indivisual"],
   },
@@ -90,7 +90,7 @@ export const projects = [
     name: "Indimedo",
     dis: "Developed a robust platform for online pharmaceuticals, Streamlined user experience and ensured secure transactions, contributing to accessible healthcare solutions.",
     ts: "Tech Stack : React.js, Redux, Tailwind CSS, axios, Router,Api ,Formik,Yup ,Material UI, ",
-    link: "https://indimedo.vercel.app/",
+    link: "https://indimedo.com",
     image: indimedo,
     tags: ["Group"],
   },
@@ -110,14 +110,14 @@ export const projects = [
     image: crudApp,
     tags: ["Indvidual"],
   },
-  {
-    name: "TabelManagement",
-    dis: "This project is based on the react with db.json to manage user details and product details.dynamanic table with debounce search functionality, This is only for the desktop.",
-    ts: "Tech Stack : CSS, HTML, Boostrap,Axios, Router ,Firebase , Formik,Yup",
-    image: tablemanagement,
-    link:'https://tablemanagement.vercel.app/',
-    tags: ["Indvidual"],
-  },
+  // {
+  //   name: "TabelManagement",
+  //   dis: "This project is based on the react with db.json to manage user details and product details.dynamanic table with debounce search functionality, This is only for the desktop.",
+  //   ts: "Tech Stack : CSS, HTML, Boostrap,Axios, Router ,Firebase , Formik,Yup",
+  //   image: tablemanagement,
+  //   link:'https://tablemanagement.vercel.app/',
+  //   tags: ["Indvidual"],
+  // },
  
   
  
