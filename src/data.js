@@ -30,22 +30,6 @@ export const filters = [
 ];
 
 export const projects = [
-   {
-    name: "CareerWallet",
-    dis: " Created a user-friendly job aggregator, simplifying career searches.  enhance efficiency and accessibility with the help of optimize code , facilitating smoother transitions into desired professions.",
-    ts: "Tech Stack : CSS, HTML, Boostrap,Javascript",
-    link: "https://thecareerwallet.com/",
-    image: careerwallet,
-    tags: ["Indvidual"],
-  },
-  {
-    name: "Mohindra Engineering Company",
-    dis: "Built with a robust tech stack including CSS, HTML, Bootstrap, and Php, we ensure a seamless user experience for our visitors.  I thrive in collaborative environments, continually seeking opportunities.",
-    ts: "Tech Stack : CSS, HTML, Boostrap,Javascript",
-    link: "https://www.mohindramachinery.com/",
-    image: mohindraengineering,
-    tags: ["Team"],
-  },
   {
     name: "Mohindra Mechanical Works",
     dis: "A user-friendly and mobile-responsive platform designed for seamless navigation and fast loading times.  Built with a robust tech stack, including CSS, HTML, Bootstrap, and Javascript.",
@@ -55,12 +39,28 @@ export const projects = [
     tags: ["Indivisual"],
   },
   {
-    name: "PrathamOnline",
-    dis: "Lannding page of the website with image optimization and responsive for all the device ,Employed React to foster interactive learning experiences, aiding in the journey towards individual success.",
-    ts: "Tech Stack : CSS, HTML, Boostrap,React ",
-    link: "https://www.prathamonline.com/",
-    image: pratham,
-    tags: ["Indivisual"],
+    name: "Mohindra Engineering Company",
+    dis: "Built with a robust tech stack including CSS, HTML, Bootstrap, and Php, we ensure a seamless user experience for our visitors.  I thrive in collaborative environments, continually seeking opportunities.",
+    ts: "Tech Stack : CSS, HTML, Boostrap,Javascript",
+    link: "https://www.mohindramachinery.com/",
+    image: mohindraengineering,
+    tags: ["Team"],
+  },
+ {
+    name: "Indimedo",
+    dis: "Developed a robust platform for online pharmaceuticals, Streamlined user experience and ensured secure transactions, contributing to accessible healthcare solutions.",
+    ts: "Tech Stack : React.js, Redux, Tailwind CSS, axios, Router,Api ,Formik,Yup ,Material UI, ",
+    link: "https://indimedo.com",
+    image: indimedo,
+    tags: ["Group"],
+  },
+     {
+    name: "CareerWallet",
+    dis: " Created a user-friendly job aggregator, simplifying career searches.  enhance efficiency and accessibility with the help of optimize code , facilitating smoother transitions into desired professions.",
+    ts: "Tech Stack : CSS, HTML, Boostrap,Javascript",
+    link: "https://thecareerwallet.com/",
+    image: careerwallet,
+    tags: ["Indvidual"],
   },
    {
     name: "JustAirports",
@@ -70,6 +70,15 @@ export const projects = [
     image: justairport,
     tags: ["Indvidual"],
   },
+  {
+    name: "PrathamOnline",
+    dis: "Lannding page of the website with image optimization and responsive for all the device ,Employed React to foster interactive learning experiences, aiding in the journey towards individual success.",
+    ts: "Tech Stack : CSS, HTML, Boostrap,React ",
+    link: "https://www.prathamonline.com/",
+    image: pratham,
+    tags: ["Indivisual"],
+  },
+  
   {
     name: "Movie and Tv Shows Information",
     dis: "Developed a web app providing comprehensive information on movies and TV shows. Implemented intuitive UI/UX and real-time data updates for an enhanced user experience.",
@@ -86,14 +95,7 @@ export const projects = [
     image: youtube,
     tags: ["Indvidual"],
   },
-  {
-    name: "Indimedo",
-    dis: "Developed a robust platform for online pharmaceuticals, Streamlined user experience and ensured secure transactions, contributing to accessible healthcare solutions.",
-    ts: "Tech Stack : React.js, Redux, Tailwind CSS, axios, Router,Api ,Formik,Yup ,Material UI, ",
-    link: "https://indimedo.com",
-    image: indimedo,
-    tags: ["Group"],
-  },
+ 
   {
     name: "Job Platform",
     dis: "Crafted a sophisticated desktop job platform offering robust search, sort, and secure authentication features. Seamlessly connecting job seekers with opportunities, enhancing their employment journey.",
@@ -101,15 +103,15 @@ export const projects = [
     link: "https://job-portal46.vercel.app/",
     image: Job,
     tags: ["Indvidual"],
-  },
-   {
-    name: "Crud Application",
-    dis: "Crud Application enabling superadmins to edit/delete, admins with limited access, and users to view product details. Streamlined access control for efficient management and enhanced user experience.",
-    ts: "Tech Stack : CSS, HTML, Boostrap,Axios, Router ,db.json , Formik,Yup",
-    link: "https://crudapp-46.vercel.app/",
-    image: crudApp,
-    tags: ["Indvidual"],
-  },
+  }
+  //  {
+  //   name: "Crud Application",
+  //   dis: "Crud Application enabling superadmins to edit/delete, admins with limited access, and users to view product details. Streamlined access control for efficient management and enhanced user experience.",
+  //   ts: "Tech Stack : CSS, HTML, Boostrap,Axios, Router ,db.json , Formik,Yup",
+  //   link: "https://crudapp-46.vercel.app/",
+  //   image: crudApp,
+  //   tags: ["Indvidual"],
+  // },
   // {
   //   name: "TabelManagement",
   //   dis: "This project is based on the react with db.json to manage user details and product details.dynamanic table with debounce search functionality, This is only for the desktop.",
