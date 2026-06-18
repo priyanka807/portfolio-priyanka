@@ -119,7 +119,7 @@ const HeroBanner = () => {
               <div className="font-light mb-4 ">
                 👋 Hi, I Am <span className="font-semibold">Priyanka Kumari</span>
               </div>
-              <div className="max-w-[700px]  ">
+              <div className="max-w-[700px]  px-5 sm:p-0">
                 {/* I'm a web developer with a focus on the Mern developer, but still
                 exploring other technologies and frameworks that catch my
                 interest! if you're looking for a developer to add to your team,
@@ -130,9 +130,8 @@ const HeroBanner = () => {
                  If you're seeking a dedicated developer to elevate your team, 
                 I'm eager to collaborate and contribute effectively.
               </div>
-            </div>
-            <div
-              className="  flex justify-center gap-2 relative z-10  mt-7 "
+                <div
+              className="flex justify-center gap-1 sm:gap-2 relative z-10  mt-7 "
               initial={{ y: 300, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.7, delay: 0.25 }}
@@ -192,6 +191,8 @@ const HeroBanner = () => {
                 </button>
               </div>   
             </div>
+            </div>
+          
           </div>
 
           <div className=" flex justify-end  md:justify-end   ">

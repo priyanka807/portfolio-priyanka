@@ -85,7 +85,7 @@ const Skills = () => {
                 <BarGraph name={"Redux Toolkit"} percent={60} />
                 <BarGraph name={"TypeScript"} percent={40} />
                 <BarGraph name={"Tailwind CSS"} percent={70} />
-                <BarGraph name={"Material Ui"} percent={70} />                         
+                <BarGraph name={"Material Ui"} percent={70} />
                 <BarGraph name={"Next Js"} percent={40} />
                 {/* <BarGraph name={"WordPress"} percent={90} /> */}
               </div>
@@ -103,6 +103,16 @@ const Skills = () => {
             </div>
           </div>
 
+          <div className="flex flex-col text-center  w-[100%]  md:w-[33%]  ">
+            <div className="text-3xl font-bold mr-10 py-3">Testing</div>
+            <div className=" ">
+              <div className="  flex flex-col  gap-4 mt-6  w-[100%] ">
+                <BarGraph name={"Manual Testing"} percent={85} />
+                <BarGraph name={"Autonomous Testing"} percent={70} />
+                <BarGraph name={"Playwright & Cypress"} percent={70} />
+              </div>
+            </div>
+          </div>
           <div className="flex flex-col  text-center  w-[100%]  md:w-[33%]   ">
             <div className="text-3xl font-bold mr-10 py-3">TOOLS</div>
             <div className="  ">
