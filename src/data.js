@@ -7,7 +7,7 @@ import pratham from "./assets/prathamonline.png";
 import crudApp from "./assets/Crud-Application.jpg";
 import careerwallet from "./assets/careerwallet.png";
 import tablemanagement from "./assets/tablemanagement.png";
-import justairport from "./assets/justAirports.png";
+import justairport from "./assets/justairports.png";
 import mmwmachine from "./assets/mohindra-mechanical-works.png";
 import mohindraengineering  from "./assets/Mohindra-Engineering-Company.png";
 import coguest from "./assets/Coguest.png"
