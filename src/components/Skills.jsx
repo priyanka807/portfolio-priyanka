@@ -12,10 +12,10 @@ import Div from "./Div";
 import sk1 from "../assets/typescript.svg";
 import sk2 from "../assets/bootstrap.png";
 import sk3 from "../assets/nextjs.png";
-import sk4 from "../assets/sk-4.png";
-import sk5 from "../assets/sk-5.png";
+import sk4 from "../assets/ai.jpg";
+import sk5 from "../assets/redux.jpg";
 import sk6 from "../assets/github.png";
-import sk7 from "../assets/sk-7.png";
+import sk7 from "../assets/Manual-testing.jpg";
 import sk8 from "../assets/sk-8.png";
 import sk9 from "../assets/sk-9.png";
 import sk10 from "../assets/sk-10.png";
@@ -51,17 +51,17 @@ const Skills = () => {
           My Skills
         </div>
         <Div className="grid grid-cols-4 gap-3 md:grid-cols-11 relative  ">
-          <SkillIcon path={sk1} />
-          <SkillIcon path={sk2} />
-          <SkillIcon path={sk3} />
-          <SkillIcon path={sk4} />
-          <SkillIcon path={sk5} />
-          <SkillIcon path={sk6} />
-          <SkillIcon path={sk7} />
           <SkillIcon path={sk8} />
           <SkillIcon path={sk9} />
           <SkillIcon path={sk10} />
           <SkillIcon path={sk11} />
+          <SkillIcon path={sk1} />
+          <SkillIcon path={sk5} />
+          <SkillIcon path={sk2} />
+          <SkillIcon path={sk3} />
+          <SkillIcon path={sk4} />
+          <SkillIcon path={sk6} />
+          <SkillIcon path={sk7} />
         </Div>
         {/* SKILL ICONS END */}
 
@@ -85,13 +85,14 @@ const Skills = () => {
                 <BarGraph name={"Redux Toolkit"} percent={60} />
                 <BarGraph name={"TypeScript"} percent={40} />
                 <BarGraph name={"Tailwind CSS"} percent={70} />
+                <BarGraph name={"Material Ui"} percent={70} />                         
                 <BarGraph name={"Next Js"} percent={40} />
                 {/* <BarGraph name={"WordPress"} percent={90} /> */}
               </div>
             </div>
           </div>
 
-          {/* <div className="flex flex-col text-center  w-[100%]  md:w-[33%]  ">
+          <div className="flex flex-col text-center  w-[100%]  md:w-[33%]  ">
             <div className="text-3xl font-bold mr-10 py-3">BACKEND</div>
             <div className=" ">
               <div className="  flex flex-col  gap-4 mt-6  w-[100%] ">
@@ -100,7 +101,7 @@ const Skills = () => {
                 <BarGraph name={"MongoDB"} percent={50} />
               </div>
             </div>
-          </div> */}
+          </div>
 
           <div className="flex flex-col  text-center  w-[100%]  md:w-[33%]   ">
             <div className="text-3xl font-bold mr-10 py-3">TOOLS</div>
@@ -109,6 +110,7 @@ const Skills = () => {
                 <BarGraph name={"GitHub"} percent={65} />
                 <BarGraph name={"Netlify"} percent={75} />
                 <BarGraph name={"Vercel"} percent={60} />
+                <BarGraph name={"Zira"} percent={70} />
               </div>
             </div>
           </div>

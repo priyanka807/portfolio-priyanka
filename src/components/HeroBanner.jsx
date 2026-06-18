@@ -77,7 +77,7 @@ const HeroBanner = () => {
             </li>
             <li className=" cursor-pointer px-5 py-2 hover:bg-slate-900 transition active:scale-90 rounded-lg">
               <a
-                href="https://drive.google.com/file/d/11gfxuFZZ5C7D4wyHy2dZ58EEIEfECSwR/view"
+                href="https://drive.google.com/file/d/1Pqvm09Zc7W1DDRl0tLfOM5uwRtqRXpdT/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -155,7 +155,7 @@ const HeroBanner = () => {
                   class="text-white bg-gradient-to-r from-purple-800 to-orange-600 hover:bg-gradient-to-l focus:ring-4  font-medium rounded-lg text-sm px-2 py-2.5 text-center mr-2 mb-2"
                 >
                   <a
-                    href="https://drive.google.com/file/d/11gfxuFZZ5C7D4wyHy2dZ58EEIEfECSwR/view"
+                    href="https://drive.google.com/file/d/1Pqvm09Zc7W1DDRl0tLfOM5uwRtqRXpdT/view?usp=sharing"
                     target="_blank"
                   >
                     Resume

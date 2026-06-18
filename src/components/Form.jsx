@@ -12,10 +12,10 @@ const Form = () => {
         e.preventDefault();
         setLoading(true);
         send(
-          "service_bl1lk1u", 
-          "template_skz4vyu",
+          "service_9osvt0q", 
+          "template_1vbknz7",
           userInput,
-          "F2RRGV4j3w4MIeZtS" 
+          "f7aRCNJNB9oEK2mjh" 
         )
           .then((response) => {
             console.log("SUCCESS!", response.status, response.text);
@@ -27,7 +27,7 @@ const Form = () => {
             setLoading(false);
           });
     };
-
+console.log(userInput,'userInput')
     const formSuccess = () => {
         toast(
             "Thanks for submitting your Query, I will get back to you shortly."

@@ -10,6 +10,7 @@ import tablemanagement from "./assets/tablemanagement.png";
 import justairport from "./assets/justairports.png";
 import mmwmachine from "./assets/mohindra-mechanical-works.png";
 import mohindraengineering  from "./assets/Mohindra-Engineering-Company.png";
+import coguest from "./assets/Coguest.png"
 
 
 
@@ -30,10 +31,18 @@ export const filters = [
 ];
 
 export const projects = [
+   {
+    name: "Neutral Advocate Private Limited",
+    dis: "Contributed to the development of a large-scale property rental platform (Airbnb-style) as a React Developer, supporting frontend and backend feature delivery.",
+    ts: "Tech Stack : REACT, MATERIAL UI, JAVA,AWS",
+    link: "https://dev.coguest.com/",
+    image: coguest,
+    tags: ["Team"],
+  },
   {
     name: "Mohindra Mechanical Works",
     dis: "A user-friendly and mobile-responsive platform designed for seamless navigation and fast loading times.  Built with a robust tech stack, including CSS, HTML, Bootstrap, and Javascript.",
-    ts: "Tech Stack : CSS, HTML, Boostrap,Php",
+    ts: "Tech Stack : CSS, HTML, BOOTSRTAP,NODEJS",
     link: "https://mmwmachine.com/",
     image: mmwmachine,
     tags: ["Indivisual"],
@@ -41,23 +50,15 @@ export const projects = [
   {
     name: "Mohindra Engineering Company",
     dis: "Built with a robust tech stack including CSS, HTML, Bootstrap, and Php, we ensure a seamless user experience for our visitors.  I thrive in collaborative environments, continually seeking opportunities.",
-    ts: "Tech Stack : CSS, HTML, Boostrap,Javascript",
+    ts: "Tech Stack : CSS, HTML, BOOTSRTAP,JS",
     link: "https://www.mohindramachinery.com/",
     image: mohindraengineering,
     tags: ["Team"],
   },
- {
-    name: "Indimedo",
-    dis: "Developed a robust platform for online pharmaceuticals, Streamlined user experience and ensured secure transactions, contributing to accessible healthcare solutions.",
-    ts: "Tech Stack : React.js, Redux, Tailwind CSS, axios, Router,Api ,Formik,Yup ,Material UI, ",
-    link: "https://indimedo.com",
-    image: indimedo,
-    tags: ["Group"],
-  },
      {
     name: "CareerWallet",
     dis: " Created a user-friendly job aggregator, simplifying career searches.  enhance efficiency and accessibility with the help of optimize code , facilitating smoother transitions into desired professions.",
-    ts: "Tech Stack : CSS, HTML, Boostrap,Javascript",
+    ts: "Tech Stack : CSS, HTML, BOOTSRTAP,PHP",
     link: "https://thecareerwallet.com/",
     image: careerwallet,
     tags: ["Indvidual"],
@@ -65,7 +66,7 @@ export const projects = [
    {
     name: "JustAirports",
     dis: "Just Airports Transfers provides premium chauffeur services across UK airports and ports, including London Heathrow , with over 20 years of experience ensuring reliable and elegant transportation.",
-    ts: "Tech Stack :Html3,Css3,Javascript, Php, Api ",
+    ts: "Tech Stack :CSS, HTML, BOOTSRTAP,JS",
     link: "https://www.justairports.com/",
     image: justairport,
     tags: ["Indvidual"],
@@ -73,7 +74,7 @@ export const projects = [
   {
     name: "PrathamOnline",
     dis: "Lannding page of the website with image optimization and responsive for all the device ,Employed React to foster interactive learning experiences, aiding in the journey towards individual success.",
-    ts: "Tech Stack : CSS, HTML, Boostrap,React ",
+    ts: "Tech Stack : CSS, HTML, BOOTSTRAP,REACT ",
     link: "https://www.prathamonline.com/",
     image: pratham,
     tags: ["Indivisual"],
@@ -82,7 +83,7 @@ export const projects = [
   {
     name: "Movie and Tv Shows Information",
     dis: "Developed a web app providing comprehensive information on movies and TV shows. Implemented intuitive UI/UX and real-time data updates for an enhanced user experience.",
-    ts: "Tech Stack :Html3,Css3,Javascript, React.js,Redux Toolkit, Sass ,CSS, Axios, Router ",
+    ts: "Tech Stack :HTML,CSS,JAVASCRIPT, REACTJS,REDUX TOOLKIT, SASS ,CSS, AXIOS ",
     link: "https://movie-website-ruddy.vercel.app/",
     image: p1,
     tags: ["Indvidual"],
@@ -90,7 +91,7 @@ export const projects = [
   {
     name: "YouTube Clone",
     dis: "Developed a user-focused YouTube clone allowing seamless video search and playback. Utilized React ,Redux  and Material/UI,Implemented responsive design for seamless viewing across devices.",
-    ts: "Tech Stack : React.js, Redux, Tailwind CSS, axios, Router,Material UI",
+    ts: "Tech Stack : REACT-JS, REDUX, TAILWIND, AXIOS, ROUTER,MATERIAL UI",
     link: "https://youtube-clone-taupe-psi.vercel.app/",
     image: youtube,
     tags: ["Indvidual"],
@@ -99,7 +100,7 @@ export const projects = [
   {
     name: "Job Platform",
     dis: "Crafted a sophisticated desktop job platform offering robust search, sort, and secure authentication features. Seamlessly connecting job seekers with opportunities, enhancing their employment journey.",
-    ts: "Tech Stack : NextJs,Redux Toolkit, Tailwind CSS, Axios, ",
+    ts: "Tech Stack : NEXTJS,REDUX TOOLKIT, TAILWIND CSS, AXIOS, ",
     link: "https://job-portal46.vercel.app/",
     image: Job,
     tags: ["Indvidual"],
